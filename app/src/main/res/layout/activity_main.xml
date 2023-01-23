@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnabstraction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abstraction"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/btnpolymorephism"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Polymorephism"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnencapsulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Encapsulation"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/btninheritance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Single Inheritance"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/btnmultilevelinheritance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multi Level Inheritance"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="15dp"/>
+    <Button
+        android:id="@+id/btnhierarchicalinheritance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hierarchical Inheritance"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="15dp"/>
+    <Button
+        android:id="@+id/btnmultipleinheritance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multiple Inheritance"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="15dp"/>
+    <Button
+        android:id="@+id/btnhybridinheritance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hybrid Inheritance"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="15dp"/>
+    <Button
+        android:id="@+id/btnconstructor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Constructor"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="15dp"/>
+</LinearLayout>
